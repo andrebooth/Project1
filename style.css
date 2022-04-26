@@ -1,0 +1,36 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    
+    
+    .Box {
+        display: grid;
+       
+        
+    }
+    .container_1 {
+        background-color: rgb(255, 119, 0);
+      
+        
+    }
+    .container_2
+    {
+        background-color: rgba(238, 0, 255, 0.697);
+       
+    }
+    .container_3 {
+        background-color: greenyellow;
+    }
+    .container_4 {
+    
+    background-color: lightseagreen;
+    }
+    
+    .container_5 {
+        background-color: blueviolet;
+        
+    }

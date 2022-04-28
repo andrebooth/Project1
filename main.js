@@ -1,19 +1,10 @@
-
-
-
-//colors array
-let colors = ['blue', 'yellow', 'orange', 'white', 'red', 'white', 'black']
-
-
-
-$("body").append("<button>Change Color</button")
 $("button").css("cursor","pointer")
-$("button").css("background-color") 
 
+$("#background-changer").on("click", function () {
 
-$("button").click(function changeBackground() {
-
-    let randomBackgroundColor = Math.floor(Math.random() * colors.length)
-
+    const colors = ['blue', 'yellow', 'orange', 'white', 'red', 'green', 'brown', 'pink', 'black']
+    const randomIndex = Math.floor(Math.random() * colors.length)
+    const randomBackgroundColor = colors[randomIndex]
+    
     $("body").css("background-color", randomBackgroundColor)
-})
+ })

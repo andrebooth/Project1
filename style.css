@@ -131,6 +131,12 @@ body {
 
 }
 
+img {
+    display: flex;
+    align-items: center;
+    height: 450px;
+    width: 450px;
+}
 
 
 
